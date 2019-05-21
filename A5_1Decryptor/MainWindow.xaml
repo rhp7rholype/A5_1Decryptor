@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:A5_1Decryptor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="400">
     <Grid>
+        <StackPanel>
+            <Menu>
+                <MenuItem Header="About" Click="MenuItem_OnClick"/>
+            </Menu>
+
+            <Button Content="Start a5" Margin="40" Click="ButtonBase_OnClick"/>
+
+            <Label Content="Time:"/>
+            <Label x:Name="Time"/>
+            
+        </StackPanel>
         
     </Grid>
 </Window>
